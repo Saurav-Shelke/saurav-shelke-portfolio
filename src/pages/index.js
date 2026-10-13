@@ -21,12 +21,12 @@ export default function Home() {
           <div className="flex items-center justify-between w-full lg:flex-col gap-12">
             <div className="w-1/2 md:w-full flex justify-center">
               <Image
-                src="/images/profile/developer-pic-1.png"
+                src="/images/profile/Untitled design.png"
                 alt="Saurav Shelke"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full max-w-[500px]"
+                className="w-full h-auto md:w-full max-w-[450px] rounded-2xl drop-shadow-xl"
                 priority
-                width={500}
-                height={500}
+                width={433}
+                height={576}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
