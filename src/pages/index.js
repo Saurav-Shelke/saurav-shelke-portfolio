@@ -15,6 +15,37 @@ export default function Home() {
           name="description"
           content="Portfolio of Saurav Shelke - B.E. Computer Science Graduate & Data Analyst specializing in SQL, Python, Power BI, Tableau, and Exploratory Data Analysis."
         />
+        <meta
+          name="keywords"
+          content="Saurav Shelke, Data Analyst, BE CSE, SQL, Python, Power BI, Tableau, EDA, Business Intelligence, Data Analytics Portfolio, Data Cleaning, Pune"
+        />
+        <meta name="author" content="Saurav Shelke" />
+        <link rel="canonical" href="https://sauravshelke.dev/" />
+
+        {/* Open Graph / Facebook / LinkedIn */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sauravshelke.dev/" />
+        <meta property="og:title" content="Saurav Shelke | Data Analyst Portfolio" />
+        <meta
+          property="og:description"
+          content="Portfolio of Saurav Shelke - B.E. Computer Science Graduate & Data Analyst specializing in SQL, Python, Power BI, Tableau, and Exploratory Data Analysis."
+        />
+        <meta
+          property="og:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
+        />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Saurav Shelke | Data Analyst Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Portfolio of Saurav Shelke - B.E. Computer Science Graduate & Data Analyst specializing in SQL, Python, Power BI, Tableau, and Exploratory Data Analysis."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
+        />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">

@@ -63,10 +63,38 @@ export default function Articles() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | Articles & Data Insights</title>
+        <title>Data Analytics Articles & Insights | Saurav Shelke</title>
         <meta
           name="description"
-          content="Technical guides, SQL analyses, and business intelligence case studies by Saurav Shelke."
+          content="In-depth technical guides on SQL Window Functions, Power BI Dashboard design, and Pandas data cleaning by Saurav Shelke."
+        />
+        <meta
+          name="keywords"
+          content="SQL Tutorials, Power BI Guides, Cohort Analysis SQL, Pandas Data Cleaning, Data Analytics Articles, Saurav Shelke Insights"
+        />
+        <link rel="canonical" href="https://sauravshelke.dev/articles" />
+
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://sauravshelke.dev/articles" />
+        <meta property="og:title" content="Data Analytics Articles & Insights | Saurav Shelke" />
+        <meta
+          property="og:description"
+          content="In-depth technical guides on SQL Window Functions, Power BI Dashboard design, and Pandas data cleaning by Saurav Shelke."
+        />
+        <meta
+          property="og:image"
+          content="https://sauravshelke.dev/images/articles/sql-cohort-analysis-cover.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Data Analytics Articles & Insights | Saurav Shelke" />
+        <meta
+          name="twitter:description"
+          content="In-depth technical guides on SQL Window Functions, Power BI Dashboard design, and Pandas data cleaning by Saurav Shelke."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sauravshelke.dev/images/articles/sql-cohort-analysis-cover.jpg"
         />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">

@@ -117,10 +117,38 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | Projects - Data Analytics & BI</title>
+        <title>Data Analytics Projects & Dashboards | Saurav Shelke</title>
         <meta
           name="description"
-          content="Data analytics case studies, business intelligence dashboards, and SQL models by Saurav Shelke."
+          content="Explore end-to-end Data Analytics projects by Saurav Shelke: E-Commerce RFM Segmentation, Power BI Executive Dashboards, and SQL Cohort Analysis."
+        />
+        <meta
+          name="keywords"
+          content="Data Analytics Projects, Power BI Dashboards, SQL Projects, Tableau Projects, RFM Customer Segmentation, Cohort Analysis, Python EDA, Saurav Shelke"
+        />
+        <link rel="canonical" href="https://sauravshelke.dev/projects" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sauravshelke.dev/projects" />
+        <meta property="og:title" content="Data Analytics Projects & Dashboards | Saurav Shelke" />
+        <meta
+          property="og:description"
+          content="Explore end-to-end Data Analytics projects by Saurav Shelke: E-Commerce RFM Segmentation, Power BI Executive Dashboards, and SQL Cohort Analysis."
+        />
+        <meta
+          property="og:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Data Analytics Projects & Dashboards | Saurav Shelke" />
+        <meta
+          name="twitter:description"
+          content="Explore end-to-end Data Analytics projects by Saurav Shelke: E-Commerce RFM Segmentation, Power BI Executive Dashboards, and SQL Cohort Analysis."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
         />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">

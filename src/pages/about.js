@@ -156,10 +156,38 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | About - Data Analyst</title>
+        <title>About Saurav Shelke | Data Analyst & BE CSE Graduate</title>
         <meta
           name="description"
-          content="About Saurav Shelke - BE CSE Graduate pursuing Data Analysis. Skilled in SQL, Python, Power BI, Tableau, and data storytelling."
+          content="Learn about Saurav Shelke, a Computer Science Engineer pursuing Data Analysis. Explore skills in SQL, Python, Power BI, Tableau, and data storytelling."
+        />
+        <meta
+          name="keywords"
+          content="About Saurav Shelke, Data Analyst Bio, BE Computer Science, SPPU Pune, Data Analytics Experience, SQL Skills, Power BI, Tableau"
+        />
+        <link rel="canonical" href="https://sauravshelke.dev/about" />
+
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://sauravshelke.dev/about" />
+        <meta property="og:title" content="About Saurav Shelke | Data Analyst & BE CSE Graduate" />
+        <meta
+          property="og:description"
+          content="Learn about Saurav Shelke, a Computer Science Engineer pursuing Data Analysis. Explore skills in SQL, Python, Power BI, Tableau, and data storytelling."
+        />
+        <meta
+          property="og:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Saurav Shelke | Data Analyst & BE CSE Graduate" />
+        <meta
+          name="twitter:description"
+          content="Learn about Saurav Shelke, a Computer Science Engineer pursuing Data Analysis. Explore skills in SQL, Python, Power BI, Tableau, and data storytelling."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sauravshelke.dev/images/articles/powerbi-executive-kpi-cover.jpg"
         />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
