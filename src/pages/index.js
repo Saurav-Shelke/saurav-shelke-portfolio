@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | Developer Portfolio</title>
+        <title>Saurav Shelke | Data Analyst Portfolio</title>
         <meta
           name="description"
-          content="Portfolio of Saurav Shelke - Full-Stack Developer specializing in React.js, Next.js, and modern web applications."
+          content="Portfolio of Saurav Shelke - B.E. Computer Science Graduate & Data Analyst specializing in SQL, Python, Power BI, Tableau, and Exploratory Data Analysis."
         />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
@@ -32,13 +32,11 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design."
+                text="Transforming Raw Data Into Actionable Business Insights."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning ideas into
-                innovative web applications. Explore my latest projects and articles,
-                showcasing my expertise in React.js and modern web development.
+                Having completed my B.E. in Computer Science and Engineering, I am pursuing Data Analysis. I specialize in turning complex datasets into actionable business intelligence through Exploratory Data Analysis (EDA), advanced SQL querying, Python data pipelines, and interactive BI dashboards in Power BI and Tableau.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center gap-4">
                 <Link
@@ -50,8 +48,14 @@ export default function Home() {
                   Resume <LinkArrow className="w-6 ml-1" />
                 </Link>
                 <Link
+                  href="/projects"
+                  className="flex items-center border-2 border-solid border-dark text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light dark:border-light dark:text-light hover:dark:bg-light hover:dark:text-dark md:p-2 md:px-4 md:text-base"
+                >
+                  View Projects
+                </Link>
+                <Link
                   href="mailto:shelkesaurav77@gmail.com"
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
+                  className="ml-2 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
                 </Link>

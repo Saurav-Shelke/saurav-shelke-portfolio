@@ -27,18 +27,20 @@ const Skills = () => {
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
-          Web
+          Analytics
         </motion.div>
-        <Skill name="HTML" x="-25vw" y="2vw" />
-        <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NextJS" x="-20vw" y="-15vw" />
-        <Skill name="Tailwind CSS" x="15vw" y="-12vw" />
-        <Skill name="Framer Motion" x="32vw" y="-5vw" />
-        <Skill name="Figma" x="0vw" y="-20vw" />
-        <Skill name="Firebase" x="-25vw" y="18vw" />
-        <Skill name="NodeJS" x="18vw" y="18vw" />
+        <Skill name="SQL" x="-24vw" y="2vw" />
+        <Skill name="Python" x="-6vw" y="-10vw" />
+        <Skill name="Power BI" x="20vw" y="6vw" />
+        <Skill name="Tableau" x="0vw" y="12vw" />
+        <Skill name="Pandas" x="-20vw" y="-15vw" />
+        <Skill name="NumPy" x="16vw" y="-12vw" />
+        <Skill name="Excel & DAX" x="30vw" y="-5vw" />
+        <Skill name="Data Cleaning" x="0vw" y="-20vw" />
+        <Skill name="EDA" x="-24vw" y="17vw" />
+        <Skill name="Statistics" x="18vw" y="18vw" />
+        <Skill name="PostgreSQL" x="-10vw" y="22vw" />
+        <Skill name="Git" x="10vw" y="-22vw" />
       </div>
     </>
   );
@@ -72,50 +74,34 @@ const Experience = () => {
   return (
     <div className="my-48 md:my-32">
       <h2 className="font-bold text-8xl mb-24 w-full text-center md:text-6xl xs:text-4xl md:mb-16 dark:text-light">
-        Experience
+        Experience & Journey
       </h2>
       <div className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         <div className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:left-4" />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Pursuing Data Analyst"
+            company="Independent Analytics & Case Studies"
+            companyLink="https://github.com/Saurav-Shelke"
+            time="Present"
+            address="India"
+            work="Currently pursuing Data Analysis full-time. Executing comprehensive exploratory data analysis (EDA), advanced SQL querying, data cleaning, and statistical modeling using Python (Pandas, NumPy). Building interactive executive dashboards in Power BI and Tableau to solve real-world business problems."
           />
           <ExperienceDetail
-            position="Intern"
-            company="Facebook"
-            companyLink="https://www.facebook.com"
-            time="Summer 2021"
-            address="Menlo Park, CA"
-            work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and share short-form video content, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
+            position="BE in Computer Science & Engineering (Completed)"
+            company="Engineering Academic Projects"
+            companyLink="https://github.com/Saurav-Shelke"
+            time="Graduated"
+            address="Pune, India"
+            work="Successfully completed Bachelor of Engineering in Computer Science and Engineering (BE CSE). Built strong engineering fundamentals in Database Management Systems (DBMS), Relational Database Design, SQL query optimization, Object-Oriented Programming, and Data Structures."
           />
           <ExperienceDetail
-            position="Software Developer"
-            company="Amazon"
-            companyLink="https://www.amazon.com"
-            time="2020-2021"
-            address="Seattle, WA"
-            work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
-          />
-          <ExperienceDetail
-            position="Software Developer Intern"
-            company="Microsoft"
-            companyLink="https://www.microsoft.com"
-            time="Summer 2019"
-            address="Redmond, WA"
-            work="Worked on a team responsible for developing new features for Microsoft's Windows operating system, including implementing a new user interface for a system settings panel and optimizing the performance of a core system component."
-          />
-          <ExperienceDetail
-            position="Teaching Assistant"
-            company="MIT"
-            companyLink="https://www.mit.edu"
-            time="Fall 2018"
-            address="Cambridge, MA"
-            work="Assisted in teaching a course on computer programming, held office hours to help students with assignments, and graded exams and assignments."
+            position="Virtual Experience Participant"
+            company="Accenture Data Analytics"
+            companyLink="https://www.theforage.com"
+            time="Completed"
+            address="Remote"
+            work="Completed real-world client simulation: cleaned, merged, and modeled 7 distinct datasets to extract engagement trends, identify top 5 content categories, and present data-backed recommendations."
           />
         </ul>
       </div>
@@ -149,22 +135,16 @@ const Education = () => {
         <div className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:left-4" />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <EducationDetail
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Bachelor of Engineering in Computer Science and Engineering (BE CSE)"
+            time="Completed"
+            place="Savitribai Phule Pune University (SPPU)"
+            info="Graduated with a strong academic foundation in Database Management Systems (DBMS), Data Structures & Algorithms, Object-Oriented Programming, and Applied Mathematics & Statistics."
           />
           <EducationDetail
-            type="Master Of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
-          />
-          <EducationDetail
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera And EdX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            type="Data Analytics Specialization & Practical Learning"
+            time="Currently Pursuing"
+            place="Self-Directed & Online Specializations"
+            info="Dedicated focus on practical Data Analysis: Advanced SQL (Window Functions, CTEs, Joins), Python for Data Analysis (Pandas, NumPy, Matplotlib, Seaborn), Advanced Excel, Power BI, and Tableau."
           />
         </ul>
       </div>
@@ -176,16 +156,16 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | About Page</title>
+        <title>Saurav Shelke | About - Data Analyst</title>
         <meta
           name="description"
-          content="About Saurav Shelke - Full-Stack Developer, UI/UX Designer, and problem solver."
+          content="About Saurav Shelke - BE CSE Graduate pursuing Data Analysis. Skilled in SQL, Python, Power BI, Tableau, and data storytelling."
         />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Data Fuels Purpose & Impact!"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -194,20 +174,13 @@ export default function About() {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m <strong>Saurav Shelke</strong>, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered digital
-                experiences. With 4 years of experience in the field, I am always looking for
-                new and innovative ways to bring ideas to life.
+                Hi, I&apos;m <strong>Saurav Shelke</strong>. Having completed my <strong>B.E. in Computer Science and Engineering (BE CSE)</strong>, I am currently pursuing <strong>Data Analysis</strong> with a focus on uncovering meaningful patterns and turning complex numbers into clear, actionable business strategies.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look pretty –
-                it&apos;s about solving problems and creating intuitive, enjoyable experiences
-                for users.
+                My computer science engineering background provides a solid foundation in database management systems (DBMS), data structures, and algorithmic logic. I leverage these technical skills across the entire analytics lifecycle—from exploratory data analysis (EDA) and data wrangling to KPI tracking and business intelligence modeling.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other digital product, I
-                bring my commitment to design excellence and user-centered thinking to every
-                project I work on.
+                Currently, I am actively building end-to-end data analytics case studies using <strong>SQL</strong>, <strong>Python (Pandas, NumPy)</strong>, <strong>Power BI</strong>, and <strong>Tableau</strong>, dedicated to helping organizations make confident, data-driven decisions.
               </p>
             </div>
 
@@ -227,28 +200,28 @@ export default function About() {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  50+
+                  1M+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Satisfied Clients
+                  Data Points Analyzed
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  40+
+                  15+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Projects Completed
+                  Analytical Case Studies
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  4+
+                  10+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of Experience
+                  Interactive Dashboards
                 </h2>
               </div>
             </div>

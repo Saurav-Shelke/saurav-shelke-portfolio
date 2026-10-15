@@ -1,10 +1,10 @@
-# Saurav Shelke — Developer Portfolio
+# Saurav Shelke — Data Analyst Portfolio
 
 ![GitHub stars](https://img.shields.io/github/stars/Saurav-Shelke/saurav-shelke-portfolio?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/Saurav-Shelke/saurav-shelke-portfolio?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/Saurav-Shelke.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
-A modern, responsive personal developer portfolio website showcasing full-stack web applications, technical articles, and engineering experience. Built using **Next.js**, **Tailwind CSS**, and **Framer Motion**.
+A modern, responsive personal portfolio website showcasing data analytics case studies, interactive Power BI & Tableau dashboards, SQL models, and analytical insights. Built by a **B.E. Computer Science Graduate** using **Next.js**, **Tailwind CSS**, and **Framer Motion**.
 
 **GitHub Profile:** [https://github.com/Saurav-Shelke](https://github.com/Saurav-Shelke)
 
@@ -13,13 +13,13 @@ A modern, responsive personal developer portfolio website showcasing full-stack 
 ## 🌟 Key Features
 
 - **Dark & Light Mode**: Smooth theme toggling with persistent user preference and system detection.
-- **Micro-Interactions & Animations**: Fluid typography and layout transitions powered by Framer Motion.
+- **Micro-Interactions & Animations**: Fluid typography and orbital skill transitions powered by Framer Motion.
 - **Fully Responsive**: Optimized across desktop, tablet, and mobile breakpoints.
 - **Modular Sections**:
-  - **Home**: Hero introduction, resume download, and quick contact action.
-  - **About**: Biography, interactive skills radar, experience, and education milestones.
-  - **Projects**: Featured projects and detailed cards with direct repository links.
-  - **Articles**: Technical publications and guide showcases.
+  - **Home**: Value proposition, resume download, and quick project navigation.
+  - **About**: Engineering-to-analytics biography, interactive skills radar (SQL, Python, Power BI, Tableau), experience, and education milestones.
+  - **Projects**: End-to-end data analytics case studies, customer segmentation, executive dashboards, and SQL models.
+  - **Articles**: Technical data guides and analytical breakdowns.
 
 ---
 
@@ -60,4 +60,5 @@ npm start
 ## 👤 Author
 
 **Saurav Shelke**
+- LinkedIn: [saurav-shelke-680a38434](https://www.linkedin.com/in/saurav-shelke-680a38434/)
 - GitHub: [@Saurav-Shelke](https://github.com/Saurav-Shelke)

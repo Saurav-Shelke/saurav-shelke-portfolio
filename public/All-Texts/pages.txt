@@ -1,120 +1,84 @@
 HOME PAGE: 
 
-- Turning Vision Into Reality With Code And Design. 
-- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+- Transforming Raw Data Into Actionable Business Insights.
+- Having completed my B.E. in Computer Science and Engineering, I am pursuing Data Analysis. I specialize in turning complex datasets into actionable business intelligence through Exploratory Data Analysis (EDA), advanced SQL querying, Python data pipelines, and interactive BI dashboards in Power BI and Tableau.
 
 --------------------------------------------------------------
 
 ABOUT PAGE:
 
-- Passion Fuels Purpose! 
-- Hi, I'm Saurav Shelke, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.
+- Data Fuels Purpose & Impact!
+- Hi, I'm Saurav Shelke. Having completed my B.E. in Computer Science and Engineering (BE CSE), I am currently pursuing Data Analysis with a focus on uncovering meaningful patterns and turning complex numbers into clear, actionable business strategies.
 
-- I believe that design is about more than just making things look pretty – it's about solving problems and 
-creating intuitive, enjoyable experiences for users. 
+- My computer science engineering background provides a solid foundation in database management systems (DBMS), data structures, and algorithmic logic. I leverage these technical skills across the entire analytics lifecycle—from exploratory data analysis (EDA) and data wrangling to KPI tracking and business intelligence modeling.
 
-- Whether I'm working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+- Currently, I am actively building end-to-end data analytics case studies using SQL, Python (Pandas, NumPy), Power BI, and Tableau, dedicated to helping organizations make confident, data-driven decisions.
 
 --------------------------------------------------------------
 
-EXPERIENCE: 
+EXPERIENCE & JOURNEY: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Pursuing Data Analyst @ Independent Analytics & Case Studies
+Present | India
+Currently pursuing Data Analysis full-time. Executing comprehensive exploratory data analysis (EDA), advanced SQL querying, data cleaning, and statistical modeling using Python (Pandas, NumPy). Building interactive executive dashboards in Power BI and Tableau to solve real-world business problems.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
+BE in Computer Science & Engineering (Completed) @ Engineering Academic Projects
+Graduated | Pune, India
+Successfully completed Bachelor of Engineering in Computer Science and Engineering (BE CSE). Built strong engineering fundamentals in Database Management Systems (DBMS), Relational Database Design, SQL query optimization, Object-Oriented Programming, and Data Structures.
 
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
-
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
-
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
-
+Virtual Experience Participant @ Accenture Data Analytics
+Completed | Remote (Forage)
+Completed real-world client simulation: cleaned, merged, and modeled 7 distinct datasets to extract engagement trends, identify top 5 content categories, and present data-backed recommendations.
 
 --------------------------------------------------------------
 
 EDUCATION:
 
-Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
-Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence.
+Bachelor of Engineering in Computer Science and Engineering (BE CSE)
+Completed | Savitribai Phule Pune University (SPPU)
+Graduated with a strong academic foundation in Database Management Systems (DBMS), Data Structures & Algorithms, Object-Oriented Programming, and Applied Mathematics & Statistics.
 
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
-
-Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering.
+Data Analytics Specialization & Practical Learning
+Currently Pursuing | Self-Directed & Online Specializations
+Dedicated focus on practical Data Analysis: Advanced SQL (Window Functions, CTEs, Joins), Python for Data Analysis (Pandas, NumPy, Matplotlib, Seaborn), Advanced Excel, Power BI, and Tableau.
 
 --------------------------------------------------------------
 
 PROJECTS PAGE:
 
-- Imagination Trumps Knowledge!
+- Data Speaks When Analyzed Right!
 
-Crypto Screener Application
-A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.
+1. E-Commerce Customer Segmentation & RFM Analysis
+An end-to-end customer analytics model utilizing Python (Pandas, Seaborn) and SQL to calculate Recency, Frequency, and Monetary (RFM) scores for 100,000+ orders. Segmented customers into actionable cohorts (Champions, At-Risk, Churned) and delivered strategic retention recommendations.
 
-React Portfolio Website
-A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+2. Executive Sales & Profitability Dashboard
+Multi-page interactive Power BI dashboard featuring dynamic DAX measures, YoY revenue growth, profit margin heatmaps, and regional performance drill-downs across 50,000+ transactions.
+
+3. Customer Retention & SQL Cohort Analysis
+Built complex SQL data models with Window Functions, CTEs, and recursive queries in PostgreSQL to track month-over-month customer retention curves and churn rates.
+
+4. Telecom Customer Churn Risk & Driver Analysis
+Comprehensive Exploratory Data Analysis (EDA) on a 7,000+ customer telecom dataset. Discovered key churn drivers (contract duration, customer service escalation frequency, monthly charges), mapped correlation matrices, and produced an executive mitigation roadmap.
+
+5. Financial Market Volatility & Portfolio Risk Analyzer
+Python time-series price volatility analysis and risk metrics calculation across major equities.
+
+6. Healthcare Operational Flow & Wait Times
+Tableau dashboard monitoring emergency department patient intake flow, room allocation, and doctor utilization rates.
 
 --------------------------------------------------------------
 
-ARTICLES PAGE:
+ARTICLES & INSIGHTS:
 
-- Words Can Change The World! 
+- Insights That Drive Decisions!
 
-Build A Custom Pagination Component In Reactjs From Scratch
-Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
-9 min read
+1. Mastering SQL Window Functions & CTEs For Cohort Retention Analysis
+A deep dive into LEAD, LAG, ROW_NUMBER, and Common Table Expressions to calculate customer cohort retention and month-over-month growth analytics in PostgreSQL.
 
-Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens
-Learn how to create stunning loading screens in React with 3 different methods. 
-Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-Improve the user experience.
-10 min read
+2. Designing Executive Power BI Dashboards: From Raw Data To Actionable KPIs
+Learn best practices for data modeling, star schemas, dynamic DAX measures, and visual storytelling to build business dashboards that leadership teams rely on.
 
-Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-
-Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion
-
-Redux Simplified: A Beginner's Guide For Web Developers
-
-What Is Higher Order Component (Hoc) In React?
-
-
-
+3. 5 Common Data Cleaning Pitfalls In Pandas And How To Avoid Them
+4. RFM Segmentation Demystified: Turning Transaction Logs Into Marketing Retention
+5. Exploratory Data Analysis: Why Visualizing Distributions Matters More Than Summary Averages
+6. The CS Engineering Advantage In Data Analytics: Writing High-Performance SQL Queries

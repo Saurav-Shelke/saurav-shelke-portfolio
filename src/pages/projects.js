@@ -55,7 +55,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             target="_blank"
             className="rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
           >
-            Visit Project
+            View Case Study
           </Link>
         </div>
       </div>
@@ -102,7 +102,7 @@ const Project = ({ title, type, img, link, github }) => {
             target="_blank"
             className="text-lg font-semibold underline dark:text-light md:text-base"
           >
-            Visit
+            View Dashboard
           </Link>
           <Link href={github} target="_blank" className="w-8 md:w-6" aria-label="GitHub Repository">
             <GithubIcon />
@@ -117,75 +117,75 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Saurav Shelke | Projects Page</title>
+        <title>Saurav Shelke | Projects - Data Analytics & BI</title>
         <meta
           name="description"
-          content="Featured projects by Saurav Shelke built with React, Next.js, and Tailwind CSS."
+          content="Data analytics case studies, business intelligence dashboards, and SQL models by Saurav Shelke."
         />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Data Speaks When Analyzed Right!"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="E-Commerce Customer Segmentation & RFM Analysis"
                 img="/images/projects/crypto-screener-cover-image.jpg"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows details regarding almost all cryptocurrencies and allows price conversion in local currency."
+                summary="An end-to-end customer analytics model utilizing Python (Pandas, Seaborn) and SQL to calculate Recency, Frequency, and Monetary (RFM) scores for 100,000+ orders. Segmented customers into actionable cohorts (Champions, At-Risk, Churned) and delivered strategic retention recommendations."
                 link="https://github.com/Saurav-Shelke"
                 github="https://github.com/Saurav-Shelke"
-                type="Featured Project"
+                type="Featured Analytics Case Study"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="React Portfolio Website"
-                img="/images/projects/portfolio-cover-image.jpg"
-                link="https://github.com/Saurav-Shelke"
-                github="https://github.com/Saurav-Shelke"
-                type="Portfolio Website"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Agency Website Template"
+                title="Executive Sales & Profitability Dashboard"
                 img="/images/projects/agency-website-cover-image.jpg"
                 link="https://github.com/Saurav-Shelke"
                 github="https://github.com/Saurav-Shelke"
-                type="Web Design"
+                type="Power BI & DAX"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Customer Retention & SQL Cohort Analysis"
+                img="/images/projects/devdreaming.jpg"
+                link="https://github.com/Saurav-Shelke"
+                github="https://github.com/Saurav-Shelke"
+                type="SQL & Database Modeling"
               />
             </div>
 
             <div className="col-span-12">
               <FeaturedProject
-                title="Fashion Studio Website"
+                title="Telecom Customer Churn Risk & Driver Analysis"
                 img="/images/projects/fashion-studio-website.jpg"
-                summary="A luxury brand fashion studio landing page with smooth locomotive scroll, modern typography, immersive animations, and responsive layout."
+                summary="Comprehensive Exploratory Data Analysis (EDA) on a 7,000+ customer telecom dataset. Discovered key churn drivers (contract duration, customer service escalation frequency, monthly charges), mapped correlation matrices, and produced an executive mitigation roadmap."
                 link="https://github.com/Saurav-Shelke"
                 github="https://github.com/Saurav-Shelke"
-                type="Featured Project"
+                type="Featured EDA & Statistical Modeling"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="NFT Collection Website"
+                title="Financial Market Volatility & Portfolio Risk Analyzer"
+                img="/images/projects/portfolio-cover-image.jpg"
+                link="https://github.com/Saurav-Shelke"
+                github="https://github.com/Saurav-Shelke"
+                type="Python & Financial Analytics"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Healthcare Operational Flow & Wait Times"
                 img="/images/projects/nft-collection-website-cover-image.jpg"
                 link="https://github.com/Saurav-Shelke"
                 github="https://github.com/Saurav-Shelke"
-                type="Web3 & Crypto"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Developer Learning Platform"
-                img="/images/projects/devdreaming.jpg"
-                link="https://github.com/Saurav-Shelke"
-                github="https://github.com/Saurav-Shelke"
-                type="Full Stack Platform"
+                type="Tableau & Healthcare BI"
               />
             </div>
           </div>

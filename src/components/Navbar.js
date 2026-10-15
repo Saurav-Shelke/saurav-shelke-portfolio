@@ -5,10 +5,8 @@ import { motion } from 'framer-motion';
 import Logo from './Logo';
 import {
   GithubIcon,
-  TwitterIcon,
   LinkedInIcon,
-  PinterestIcon,
-  DribbbleIcon,
+  InstagramIcon,
   SunIcon,
   MoonIcon,
 } from './Icons';
@@ -22,9 +20,8 @@ const CustomLink = ({ href, title, className = "" }) => {
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-light ${
-          isActive ? "w-full" : "w-0"
-        }`}
+        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-light ${isActive ? "w-full" : "w-0"
+          }`}
       >
         &nbsp;
       </span>
@@ -48,9 +45,8 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     >
       {title}
       <span
-        className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-dark ${
-          isActive ? "w-full" : "w-0"
-        }`}
+        className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-dark ${isActive ? "w-full" : "w-0"
+          }`}
       >
         &nbsp;
       </span>
@@ -75,19 +71,16 @@ export default function Navbar() {
         aria-label="Toggle Menu"
       >
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
-            isOpen ? "opacity-0" : "opacity-100"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? "opacity-0" : "opacity-100"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+            }`}
         ></span>
       </button>
 
@@ -108,23 +101,12 @@ export default function Navbar() {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6"
-            aria-label="Saurav Shelke GitHub"
+            aria-label="GitHub Profile"
           >
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noreferrer"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6"
-            aria-label="Twitter Profile"
-          >
-            <TwitterIcon />
-          </motion.a>
-          <motion.a
-            href="https://linkedin.com/in/sauravshelke"
+            href="https://www.linkedin.com/in/saurav-shelke-680a38434/"
             target="_blank"
             rel="noreferrer"
             whileHover={{ y: -2 }}
@@ -135,33 +117,21 @@ export default function Navbar() {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://pinterest.com"
-            target="_blank"
-            rel="noreferrer"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 bg-light rounded-full"
-            aria-label="Pinterest Profile"
-          >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://dribbble.com"
+            href="https://instagram.com"
             target="_blank"
             rel="noreferrer"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6"
-            aria-label="Dribbble Profile"
+            aria-label="Instagram Profile"
           >
-            <DribbbleIcon />
+            <InstagramIcon />
           </motion.a>
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
-            className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-              mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
-            }`}
+            className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+              }`}
             aria-label="Toggle Dark Mode"
           >
             {mode === "dark" ? (
@@ -195,23 +165,12 @@ export default function Navbar() {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 bg-light rounded-full dark:bg-dark sm:mx-1"
-              aria-label="Saurav Shelke GitHub"
+              aria-label="GitHub Profile"
             >
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noreferrer"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 sm:mx-1"
-              aria-label="Twitter Profile"
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="https://linkedin.com/in/sauravshelke"
+              href="https://www.linkedin.com/in/saurav-shelke-680a38434/"
               target="_blank"
               rel="noreferrer"
               whileHover={{ y: -2 }}
@@ -222,33 +181,21 @@ export default function Navbar() {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://pinterest.com"
+              href="https://instagram.com"
               target="_blank"
               rel="noreferrer"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 bg-light rounded-full sm:mx-1"
-              aria-label="Pinterest Profile"
+              className="w-6 sm:mx-1 text-light dark:text-dark"
+              aria-label="Instagram Profile"
             >
-              <PinterestIcon />
-            </motion.a>
-            <motion.a
-              href="https://dribbble.com"
-              target="_blank"
-              rel="noreferrer"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 sm:mx-1"
-              aria-label="Dribbble Profile"
-            >
-              <DribbbleIcon />
+              <InstagramIcon />
             </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-                mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
-              }`}
+              className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+                }`}
               aria-label="Toggle Theme"
             >
               {mode === "dark" ? (
